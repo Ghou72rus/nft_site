@@ -6,6 +6,7 @@ body{
 }
 .btn li{
     list-style: none;
+    transition: 0.5s;
 }
 .left{
     background-color: rgb(37,37,37);
@@ -146,6 +147,8 @@ h3{
 color: #FFFFFF;
 text-decoration: none;
 margin-right: 40px;
+transition: 0.3s ease;
+
 }
 .right_pannel ul{
     position: absolute;
@@ -167,6 +170,7 @@ margin-right: 40px;
     color: #FFFFFF;
     font-size: 32px;
     margin-bottom: 100px;
+    transition: 0.5s ease;
 }
 .list ul{
     width: fit-content;
@@ -239,9 +243,18 @@ content: 3D printed;
 .decore_btn input{
     width: 47%;
     height: 50%;
+    transition: 0.5s;
 }
 .decore_btn input:first-child{
     margin-right: 10px;
+}
+.decore_btn input:hover {
+    width: 60%;
+    height: 60%;
+
+}
+h1:hover{
+    text-decoration: double;
 }
 @media (max-width: 844px){
     .content{
@@ -252,4 +265,20 @@ content: 3D printed;
         margin-top: 0;
     }
     
+}
+
+.right_pannel ul li a:hover{
+    font-size: 18px;
+    border-bottom: 1px solid white;
+
+}
+.right_pannel ul li:last-child a:hover{
+    border: none;
+    font-size: 12px;
+    
+}
+.list h1:hover{
+    font-size: 34px;
+    border-bottom: 1px solid white;
+    width: 120px;
 }
